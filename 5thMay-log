@@ -1,0 +1,12 @@
+05/05/25
+-11:31am-
+- I redirected the path to conda thanks to this 2024's tutorial: https://saturncloud.io/blog/solving-the-conda-command-not-recognized-issue-on-windows-10/
+- Found a Spyder maintainer (Carlos) solution to a ~similar problem~: https://stackoverflow.com/questions/69704561/cannot-update-spyder-5-1-5-on-new-anaconda-install
+  - have uninstall Spyder and updated a LOT of packages including Anaconda Navigator to 2.63 (i couldn't do that before so that's a gainer) ;
+  - removing python-language-server and updating anaconda generated errors so ignored it (as adviced my Carlos) ;
+  - checked which version of spyder i need and it's 6.0.5 but is not accepted bcause Python's not at the right version ;
+    - cannot upgrade python bcause package dependency ;
+    - Anaconda interface allowed me to install Spyder 6.0.5 like?? hello. It was not installed in the new version of Anaconda so I just click on "Install" and then "Launch" I'm happy but confused.
+    - plOt tWiSt, the upgrade didn't work bcause it couldn't find the spyder uninstall file. the AI chatbot perplexity adviced to ignore bcause not relevant to Spyder usage.
+- okay, now i'm going to create environnement.
+-12:33pm-
